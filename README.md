@@ -19,7 +19,7 @@ and beautiful. What more do you want?</h4>
 
 <div align="center">
   <img src =".readmefiles/preview.png" width="350">
-    <p><i>Kasparov vs Deep Blue (1997), represented in JavaChess</i></p>
+    <p><i>Chess initial board configuration in JavaChess</i></p>
 </div>
 
 <a name="about"></a>
