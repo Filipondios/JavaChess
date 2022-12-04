@@ -15,23 +15,14 @@
 % comments.                                                              │
 % ───────────────────────────────────────────────────────────────────────┘
 
-% @ black/rook black/knight black/bishop black/queen black/king black/bishop black/knight black/rook
-% @ black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn
-% @ none none none none none none none none
-% @ none none none none none none none none
-% @ none none none none none none none none
-% @ none none none none none none none none
-% @ white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn
-% @ white/rook white/knight white/bishop white/queen white/king white/bishop white/knight white/rook
-
-@ none none none black/rook black/rook none black/king none
-@ none black/pawn none black/knight none none none none
-@ none black/queen black/pawn none none none none black/pawn
-@ none none none none none white/pawn black/bishop black/bishop
-@ black/pawn white/pawn none none black/pawn none none none
-@ white/pawn none none none white/knight white/pawn white/pawn none
-@ none white/bishop white/pawn none white/rook none white/bishop none
-@ white/rook none white/queen none none none none white/king
+@ black/rook black/knight black/bishop black/queen black/king black/bishop black/knight black/rook
+@ black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn black/pawn
+@ none none none none none none none none
+@ none none none none none none none none
+@ none none none none none none none none
+@ none none none none none none none none
+@ white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn white/pawn
+@ white/rook white/knight white/bishop white/queen white/king white/bishop white/knight white/rook
 
 %  R   G   B
 $ 240 216 191

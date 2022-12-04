@@ -1,80 +1,50 @@
 package app.board;
 
-import java.awt.Dimension;
-import java.awt.GridLayout;
-import java.awt.Toolkit;
-import java.io.File;
-import java.io.FileNotFoundException;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import com.formdev.flatlaf.FlatDarkLaf;
-import java.util.ArrayList;
-import java.util.Scanner;
+import app.pieces.Piece;
 
-public class Board extends JFrame{
+public class Board {
 	
-	JPanel contentpane;
+	public static int[] squares;
 	
 	public Board() {
+		squares = new int[64];
 		
-		final Toolkit screen = Toolkit.getDefaultToolkit();
-		final Dimension screen_size = screen.getScreenSize();
+		/* Black pieces at the top of the board */
+		squares[0] = Piece.black | Piece.rook;
+		squares[1] = Piece.black | Piece.knight;
+		squares[2] = Piece.black | Piece.bishop;
+		squares[3] = Piece.black | Piece.queen;
+		squares[4] = Piece.black | Piece.king;
+		squares[5] = squares[2];
+		squares[6] = squares[1];
+		squares[7] = squares[0];
+		
+		squares[8] = Piece.black | Piece.pawn;
+		squares[9] = squares [8];
+		squares[10] = squares [8];
+		squares[11] = squares [8];
+		squares[12] = squares [8];
+		squares[13] = squares [8];
+		squares[14] = squares [8];
+		squares[15] = squares [8];
 
-		this.setSize(screen_size.width>>2, screen_size.width>>2);		
-		this.setResizable(false);
-		this.setLocationRelativeTo(null);
-		this.setVisible(true);
-		this.setTitle("JavaChess");
-		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		/* White pieces at the end of the board */
+		squares[48] = Piece.white | Piece.pawn;
+		squares[49] = squares [48];
+		squares[50] = squares [48];
+		squares[51] = squares [48];
+		squares[52] = squares [48];
+		squares[53] = squares [48];
+		squares[54] = squares [48];
+		squares[55] = squares [48];
 		
-		contentpane = new JPanel();
-		contentpane.setLayout(new GridLayout(8,8));
-		
-		ArrayList<String> data = load("src - config/init_game");
-		
-		int count = 0;
-		for (int i = 0; i < 8; i++)
-			for (int j = 0; j < 8; j++, count++)
-				contentpane.add(new Tile((i+j)%2!=0? 1 :0, data.get(count)));
-		
-		this.add(contentpane);
-	}
-	
-	private static ArrayList<String> load(final String path) {
-		Scanner sc = null;
-		try { sc = new Scanner(new File(path)); }
-		catch (FileNotFoundException e) { e.printStackTrace(); }
-		
-		String line;
-		String items[];
-		ArrayList<String> pieces = new ArrayList<String>(70);
-		
-		while(sc.hasNext()) {
-			line = sc.nextLine().trim();
-			if(line.startsWith("%") || line.isEmpty()) continue;
-
-			items = line.split(" ");				
-
-			if(line.startsWith("@")) {
-				for (int i = 1; i < items.length; i++)
-					pieces.add(items[i].equals("none")? null : items[i]);
-				continue;
-			}
-			if(line.startsWith("$")) {
-				for (int i = 1; i < items.length; i++)
-					pieces.add(items[i]);
-			}
-		}
-		sc.close();
-		return pieces;
-	}
-	
-	public static void main(String[] args) {
-		try {
-			javax.swing.UIManager.setLookAndFeel(new FlatDarkLaf());
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
-		new Board();
+		squares[56] = Piece.white | Piece.rook;
+		squares[57] = Piece.white | Piece.knight;
+		squares[58] = Piece.white | Piece.bishop;
+		squares[59] = Piece.white | Piece.queen;
+		squares[60] = Piece.white | Piece.king;
+		squares[61] = squares[58];
+		squares[62] = squares[57];
+		squares[63] = squares[56];
 	}
 }
