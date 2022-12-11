@@ -1,10 +1,10 @@
 # JavaChess (Not Finished)
 
 <div id="badges" align="center">
-  <a> <img src="https://img.shields.io/github/license/filipondios/javachess" alt="License"/> </a>
-  <a> <img src="https://img.shields.io/github/repo-size/filipondios/javachess" alt="size"> </a>
-  <a> <img src="https://img.shields.io/github/languages/top/filipondios/javachess" alt="languages"> </a>
-  <a> <img src="https://img.shields.io/github/last-commit/filipondios/javachess" alt="last-commit"> </a>
+  <a> <img src="https://img.shields.io/github/license/filipondios/JavaChess" alt="License"/> </a>
+  <a> <img src="https://img.shields.io/github/repo-size/filipondios/JavaChess" alt="size"> </a>
+  <a> <img src="https://img.shields.io/github/languages/top/filipondios/JavaChess" alt="languages"> </a>
+  <a> <img src="https://img.shields.io/github/last-commit/filipondios/JavaChess" alt="last-commit"> </a>
 </div>
 
 <h4 align="center">The classic <b><a href="https://en.wikipedia.org/wiki/Chess">Chess</a></b> game made in Java. Simpler for the user, light, fast
@@ -44,6 +44,11 @@ The future features that will be implemented, in order are:
 - `#2` : Chess and pieces customization : The user could be able to chage the pieces and board theme.
 - `#3` : Custom location/configuration of the pieces in the board when starting the app.
 - `#4` : Chess AI
+
+## Credits
+- The pieces colleaction are from: <a href="https://github.com/Ka-hu/chess-pieces">Ka-hu/chess-pieces</a>
+- The basic board colors are from: <a href="https://www.youtube.com/watch?v=U4ogK0MIzqk&t=285s">Sebastian Lague-Coding Adventure: Chess</a>
+- Some ideas to identify the pieces were also extracted from: <a href="https://www.youtube.com/watch?v=U4ogK0MIzqk&t=285s">Sebastian Lague-Coding Adventure: Chess</a>
 
 <a name="license"></a>
 ## License 📜
