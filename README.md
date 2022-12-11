@@ -45,6 +45,11 @@ The future features that will be implemented, in order are:
 - `#3` : Custom location/configuration of the pieces in the board when starting the app.
 - `#4` : Chess AI
 
+## Credits
+- The pieces colleaction are from: <a href="https://github.com/Ka-hu/chess-pieces">Ka-hu/chess-pieces</a>
+- The basic board colors are from: <a href="https://www.youtube.com/watch?v=U4ogK0MIzqk&t=285s">Sebastian Lague-Coding Adventure: Chess</a>
+- Some ideas to identify the pieces were also extracted from: <a href="https://www.youtube.com/watch?v=U4ogK0MIzqk&t=285s">Sebastian Lague-Coding Adventure: Chess</a>
+
 <a name="license"></a>
 ## License 📜
 GNU - See the license <a href="LICENSE">file</a>.
