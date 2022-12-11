@@ -16,9 +16,9 @@ and beautiful. What more do you want?
 
 <!-- Quick Link -->
 <p align="center">
-  <a href="#about">About 📚</a>
-  <a href="#license">Features ♟</a>
-  <a href="#credits">Credits :clipboard:</a>
+  <a href="#about">About 📚</a> •
+  <a href="#license">Features ♟</a> •
+  <a href="#credits">Credits :clipboard:</a> •
   <a href="#license">License 📜</a>
 </p>
 
