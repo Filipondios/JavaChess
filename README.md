@@ -1,10 +1,10 @@
 # JavaChess (Not Finished)
 
 <div id="badges" align="center">
-  <a> <img src="https://img.shields.io/github/license/filipondios/javachess" alt="License"/> </a>
-  <a> <img src="https://img.shields.io/github/repo-size/filipondios/javachess" alt="size"> </a>
-  <a> <img src="https://img.shields.io/github/languages/top/filipondios/javachess" alt="languages"> </a>
-  <a> <img src="https://img.shields.io/github/last-commit/filipondios/javachess" alt="last-commit"> </a>
+  <a> <img src="https://img.shields.io/github/license/filipondios/JavaChess" alt="License"/> </a>
+  <a> <img src="https://img.shields.io/github/repo-size/filipondios/JavaChess" alt="size"> </a>
+  <a> <img src="https://img.shields.io/github/languages/top/filipondios/JavaChess" alt="languages"> </a>
+  <a> <img src="https://img.shields.io/github/last-commit/filipondios/JavaChess" alt="last-commit"> </a>
 </div>
 
 <h4 align="center">The classic <b><a href="https://en.wikipedia.org/wiki/Chess">Chess</a></b> game made in Java. Simpler for the user, light, fast
