@@ -16,10 +16,11 @@ and beautiful. What more do you want?
 
 <!-- Quick Link -->
 <p align="center">
-  <a href="#about">About 📚</a> •
-  <a href="#license">Features ♟</a> •
+  <a href="#about">About :book:</a> •
+  <a href="#license">Features :wrench:</a> •
+  <a href="#contrib">Contributing :speech_balloon:</a> •
   <a href="#credits">Credits :clipboard:</a> •
-  <a href="#license">License 📜</a>
+  <a href="#license">License :open_file_folder:</a>
 </p>
 
 <!-- App preview -->
@@ -30,7 +31,7 @@ and beautiful. What more do you want?
 
 <!-- About the app -->
 <a name="about"></a>
-## About 📚
+## About :book:
 <p>Chess is that kind of board game that we all have played once in our lives. Who could imagine that 6 different pieces with a few rules could be
 that complicated, at the point that with a normal pc, the time for this to generate all the possible moves and combinations in a chess game would
 last aproximately the same time that ages the univesre has.<p>
@@ -39,7 +40,7 @@ last aproximately the same time that ages the univesre has.<p>
 
 <!-- Implemented and not implemented features -->
 <a name="features"></a>
-## Features ♟
+## Features :wrench:
 The actual features that are implememnted in the game are (***only marked with the :white_check_mark:***):
 
 - [ ] : Game customization
@@ -49,6 +50,19 @@ The actual features that are implememnted in the game are (***only marked with t
 - [ ] : Custom location/configuration of the pieces in the board when starting the app.
 - [ ] : Chess AI
 
+<a name="contrib"></a>
+## Contributing :speech_balloon:
+
+Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue. Don't forget to give the project a :star:!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/SomeFeature`)
+3. Commit your Changes (`git commit -m 'Add some SomeFeature'`)
+4. Push to the Branch (`git push origin feature/SomeFeature`)
+5. Open a Pull Request
+  
 <!-- Credits -->
 <a name="credits"></a>
 ## Credits :clipboard:
@@ -58,5 +72,5 @@ The actual features that are implememnted in the game are (***only marked with t
 
 <!-- License -->
 <a name="license"></a>
-## License 📜
+## License :open_file_folder:
 GNU - See the license <a href="LICENSE">file</a>.
