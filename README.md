@@ -25,8 +25,8 @@ and beautiful. What more do you want?
 
 <!-- App preview -->
 <div align="center">
-  <img src =".readmefiles/preview.png" width="350">
-    <p><i>Chess initial board configuration in JavaChess</i></p>
+  <img src =".readmefiles/preview.png" width="600">
+    <p><i>A simple preview of the JavaChess Launcher and app</i></p>
 </div>
 
 <!-- About the app -->
