@@ -1,6 +1,7 @@
 package app.chess.utils;
 
 import java.awt.Color;
+import java.awt.Toolkit;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,6 +32,9 @@ public class Resources {
 	
 	/** Dark color of the board theme */
 	public static Color darkColor = null;
+	
+	/** Side of the app's game board (screen width/4). */
+	public static final int side = Toolkit.getDefaultToolkit().getScreenSize().width>>2;
 	
 	/**
 	 * Reads the available board themes from the file (src - data/board_themes) and stores them
