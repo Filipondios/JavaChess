@@ -1,25 +1,25 @@
 package app.chess.graphics;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.GridLayout;
-import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
+import app.chess.utils.Resources;
 
 public final class GameFrame extends JFrame {
 	
 	public GameFrame() {
 		// Settings for the GameFrame
-		final int width = Toolkit.getDefaultToolkit().getScreenSize().width>>2;
+		final int width = Resources.side;
 		this.setSize((int) (width+width*0.18),(int) (width+width*0.18));
 		this.setVisible(true);
 		this.setResizable(false);
 		this.setTitle("JavaChess");
 		this.setLocationRelativeTo(null);
-		this.setDefaultCloseOperation(EXIT_ON_CLOSE);	
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		LauncherFrame.gameBoard.setBackground(LauncherFrame.background);
 								
 		// Add the coordinate bars at the sides and the board in the center
 		this.setLayout(new BorderLayout());
@@ -33,14 +33,14 @@ public final class GameFrame extends JFrame {
 	private final class BorderPanel extends JPanel{
 
 		public BorderPanel(String[] labels, boolean vertical) {
-			this.setBackground(new Color(38,38,38));
+			this.setBackground(LauncherFrame.background);
 			if(labels == null) return;
 			
 			this.setLayout(vertical? new GridLayout(labels.length,1) : new GridLayout(1, labels.length));
 			
 			for (String label : labels) {
 				JLabel item = new JLabel(label, SwingConstants.CENTER);
-				item.setForeground(Color.white);
+				item.setForeground(LauncherFrame.foreground);
 				this.add(item);
 			}
 		}	
