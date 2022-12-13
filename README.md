@@ -25,8 +25,8 @@ and beautiful. What more do you want?
 
 <!-- App preview -->
 <div align="center">
-  <img src =".readmefiles/preview.png" width="350">
-    <p><i>Chess initial board configuration in JavaChess</i></p>
+  <img src =".readmefiles/preview.png" width="600">
+    <p><i>JavaChess Launcher (in front) and JavaChess (behind)</i></p>
 </div>
 
 <!-- About the app -->
@@ -43,9 +43,9 @@ last aproximately the same time that ages the univesre has.<p>
 ## Features :wrench:
 The actual features that are implememnted in the game are (***only marked with the :white_check_mark:***):
 
-- [ ] : Game customization
-  - [ ] : Custom pieces
-  - [ ] : Custom colors for the board
+- [x] : Game customization
+  - [x] : Custom pieces
+  - [x] : Custom colors for the board
 - [ ] : 1v1 game (human vs human)
 - [ ] : Custom location/configuration of the pieces in the board when starting the app.
 - [ ] : Chess AI
