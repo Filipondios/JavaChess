@@ -46,6 +46,7 @@ The actual features that are implememnted in the game are (***only marked with t
 - [x] : Game customization
   - [x] : Custom pieces
   - [x] : Custom colors for the board
+  - [x] : Custom app theme: light or dark <b>(default=dark)</b>
 - [ ] : 1v1 game (human vs human)
 - [ ] : Custom location/configuration of the pieces in the board when starting the app.
 - [ ] : Chess AI
