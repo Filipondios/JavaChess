@@ -25,7 +25,7 @@ and beautiful. What more do you want?
 
 <!-- App preview -->
 <div align="center">
-  <img src =".readmefiles/preview.png" width="600">
+  <img src =".readmefiles/apppreview.png" width="600">
     <p><i>JavaChess Launcher (in front) and JavaChess (behind)</i></p>
 </div>
 
