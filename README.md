@@ -37,6 +37,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- Credits -->
 <a name="credits"></a>
 ## Credits :clipboard:
+- The pieces are from <a href="https://github.com/lichess-org/lila/issues/5534">this lichess issue discussion</a>. The piece images were based in the <a href="https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/3507455/3737894?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230105%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230105T143525Z&X-Amz-Expires=300&X-Amz-Signature=1c9cdfa39ff16a773421ca7f895d9721ccde0f889983503c06e2461dac866a51&X-Amz-SignedHeaders=host&actor_id=91225771&key_id=0&repo_id=3507455&response-content-disposition=attachment%3Bfilename%3Dmaestro.zip&response-content-type=application%2Fx-zip-compressed">Maestro</a> set, and the colours of the pieces were modified to a better looking ones.
+- The board colors were based in the <a href="https://www.chess.com">chess.com</a> brown color theme.
 
 <!-- License -->
 <a name="license"></a>
