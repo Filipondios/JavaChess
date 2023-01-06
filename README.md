@@ -17,7 +17,7 @@
 
 <!-- App preview -->
 <div align="center">
-  <img src =".readmefiles/preview.png" width="600">
+  <img src =".readmefiles/preview.png" width="500">
 </div>
 
 
